@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AnimationTest</string>
+    <string name="login">登录</string>
+    <string name="login_sign">请输入密码</string>
+    <string name="button1">View动画-平移</string>
+    <string name="button2">View动画-缩放</string>
+    <string name="button3">View动画-旋转</string>
+    <string name="button4">View动画-透明度</string>
+    <string name="button5">自定义View动画</string>
+    <string name="button6">帧动画</string>
+    <string name="button7">ViewGroup动画</string>
+    <string name="button8">Activity平移切换</string>
+    <string name="button9">Activity缩放切换</string>
+    <string name="button10">密码错误</string>
+    <string name="button11">属性动画-ObjectAnimator</string>
+    <string name="button12">属性动画-ValueAnimator</string>
+    <string name="button13">属性动画-AnimatorSet同时执行</string>
+    <string name="button14">属性动画-AnimationSet分别执行</string>
+    <string name="button15">属性动画-XML形式</string>
+</resources>

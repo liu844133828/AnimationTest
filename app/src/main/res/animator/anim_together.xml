@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <!--startOffset 动画延迟多少毫秒-->
+    <!--propertyName 要改变的属性名:如translationX...-->
+    <objectAnimator
+        android:propertyName="scaleX"
+        android:duration="1000"
+        android:valueFrom="0.5"
+        android:valueTo="1.5"
+        android:startOffset="300"
+        android:repeatCount="2"
+        android:repeatMode="reverse"
+        android:valueType="floatType"/>
+
+    <objectAnimator
+        android:propertyName="backgroundColor"
+        android:duration="2000"
+        android:valueFrom="#ff00ff"
+        android:valueTo="#FF1BDAB4"
+        android:startOffset="300"
+        android:repeatCount="2"
+        android:repeatMode="reverse"
+        android:valueType="intType"/>
+
+</set>
